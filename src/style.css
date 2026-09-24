@@ -1,0 +1,712 @@
+.car-card-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.brand-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.brand-details-logo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
+.brand-description {
+  max-width: 700px;
+}
+
+/* =========================
+   Footer
+========================= */
+
+.site-footer {
+  background-color: #111111;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.footer-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  color: #aaaaaa;
+  line-height: 1.8;
+  max-width: 450px;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-line {
+  border-color: #333333;
+  margin: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777777;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+
+/* =========================
+   Car Cards
+========================= */
+
+.car-card {
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-6px);
+}
+
+.car-card-image-wrapper {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.car-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.car-brand {
+  color: #777;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.car-description {
+  min-height: 75px;
+  line-height: 1.6;
+}
+
+.car-card .card-title {
+  min-height: 30px;
+}
+
+/* =========================
+   Car Details Hero
+========================= */
+
+.car-hero {
+  background-color: #f8f9fa;
+}
+
+.car-hero-image-wrapper {
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.car-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* =========================
+   Related Cars
+========================= */
+
+.related-section {
+  background-color: #f8f9fa;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 991px) {
+
+  .car-card-image-wrapper {
+    height: 230px;
+  }
+
+  .car-hero-image-wrapper {
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .car-card-image-wrapper {
+    height: 220px;
+  }
+
+  .car-hero-image-wrapper {
+    height: 300px;
+  }
+
+}
+
+
+/* =========================
+   HOME PAGE
+========================= */
+
+.home-hero {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.home-hero-content {
+  max-width: 600px;
+}
+
+.home-hero-image-wrapper {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.home-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.home-featured-card {
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.25s ease;
+}
+
+.home-featured-card:hover {
+  transform: translateY(-6px);
+}
+
+.home-featured-image-wrapper {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.home-featured-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.home-cta {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 991px) {
+  .home-hero {
+    padding: 50px 0;
+  }
+
+  .home-hero-image-wrapper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-hero {
+    padding: 40px 0;
+  }
+
+  .home-hero-image-wrapper {
+    height: 280px;
+  }
+}
+
+/* =========================
+   ADMIN
+========================= */
+
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  background-color: #f5f6f8;
+}
+
+.admin-sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #111111;
+  color: white;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+.admin-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-nav a {
+  color: #aaa;
+  text-decoration: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.admin-nav a:hover,
+.admin-nav a.router-link-active {
+  background-color: #333;
+  color: white;
+}
+
+.admin-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-topbar {
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-stat-card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 25px;
+  border: 1px solid #eee;
+}
+
+.admin-table {
+  background-color: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.admin-form-card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 30px;
+}
+
+@media (max-width: 767px) {
+  .admin-sidebar {
+    width: 190px;
+  }
+
+  .admin-topbar {
+    padding: 0 15px;
+  }
+}
+
+/* =========================
+   ADMIN
+========================= */
+
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  background-color: #f5f6f8;
+}
+
+.admin-sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #111;
+  color: white;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+.admin-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-nav a {
+  color: #aaa;
+  text-decoration: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.admin-nav a:hover,
+.admin-nav a.router-link-active {
+  background-color: #333;
+  color: white;
+}
+
+.admin-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-topbar {
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-stat-card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 25px;
+  border: 1px solid #eee;
+}
+
+.admin-table {
+  background-color: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.admin-form-card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 30px;
+}
+
+.admin-table-image {
+  width: 65px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-brand-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.admin-brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+  padding: 20px;
+}
+
+.modal-card-custom {
+  background: white;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.toast-container-custom {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 5000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast-custom {
+  min-width: 280px;
+  max-width: 400px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.toast-success {
+  background-color: #198754;
+}
+
+.toast-danger {
+  background-color: #dc3545;
+}
+
+.toast-info {
+  background-color: #0d6efd;
+}
+
+.toast-close {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 22px;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .admin-sidebar {
+    width: 190px;
+  }
+
+  .admin-topbar {
+    padding: 0 15px;
+  }
+
+  .toast-container-custom {
+    left: 15px;
+    right: 15px;
+  }
+
+  .toast-custom {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* =========================
+   AI CHAT
+========================= */
+
+.ai-chat {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 4000;
+}
+
+.ai-chat-button {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #111;
+  color: white;
+  font-size: 27px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.ai-chat-button:hover {
+  transform: translateY(-3px);
+}
+
+.ai-chat-window {
+  width: 360px;
+  height: 500px;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.ai-chat-header {
+  background: #111;
+  color: white;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai-chat-header strong {
+  display: block;
+}
+
+.ai-chat-header small {
+  color: #aaa;
+}
+
+.ai-close {
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 26px;
+}
+
+.ai-chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ai-message {
+  max-width: 85%;
+  padding: 10px 13px;
+  border-radius: 12px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.ai-message-user {
+  align-self: flex-end;
+  background: #111;
+  color: white;
+  border-bottom-right-radius: 3px;
+}
+
+.ai-message-assistant {
+  align-self: flex-start;
+  background: white;
+  color: #222;
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 3px;
+}
+
+.ai-chat-input {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #ddd;
+  gap: 8px;
+}
+
+.ai-chat-input input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+}
+
+.ai-chat-input button {
+  border: 0;
+  background: #111;
+  color: white;
+  padding: 0 15px;
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .ai-chat {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .ai-chat-window {
+    width: calc(100vw - 30px);
+    height: 480px;
+  }
+}
+
+.brand-details-hero {
+  background-color: #f8f9fa;
+}
+
+.brand-logo-large {
+  width: 220px;
+  height: 220px;
+  margin: auto;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.brand-logo-large img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

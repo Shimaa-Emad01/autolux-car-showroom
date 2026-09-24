@@ -1,0 +1,190 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "BMW",
+      "description": "BMW is a German luxury automotive brand known for performance, engineering, and driving dynamics.",
+      "logoUrl": "https://picsum.photos/seed/bmw/200/200",
+      "createdAt": "2026-01-01T10:00:00Z",
+      "updatedAt": "2026-01-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Mercedes-Benz",
+      "description": "Mercedes-Benz is a German luxury brand recognized for premium vehicles, comfort, technology, and elegant design.",
+      "logoUrl": "https://picsum.photos/seed/mercedes/200/200",
+      "createdAt": "2026-01-02T10:00:00Z",
+      "updatedAt": "2026-01-02T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Audi",
+      "description": "Audi is a German automotive brand combining modern technology, performance, and sophisticated design.",
+      "logoUrl": "https://picsum.photos/seed/audi/200/200",
+      "createdAt": "2026-01-03T10:00:00Z",
+      "updatedAt": "2026-01-03T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Porsche",
+      "description": "Porsche is a premium German manufacturer famous for sports cars, performance, and iconic design.",
+      "logoUrl": "https://picsum.photos/seed/porsche/200/200",
+      "createdAt": "2026-01-04T10:00:00Z",
+      "updatedAt": "2026-01-04T10:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Tesla",
+      "description": "Tesla is an electric vehicle company focused on innovative technology, performance, and sustainable transportation.",
+      "logoUrl": "https://picsum.photos/seed/tesla/200/200",
+      "createdAt": "2026-01-05T10:00:00Z",
+      "updatedAt": "2026-01-05T10:00:00Z"
+    }
+  ],
+  "cars": [
+    {
+      "name": "BMW M4 Competition",
+      "brandId": 1,
+      "year": 2025,
+      "price": 89000,
+      "discount": 10,
+      "stock": 5,
+      "tags": [
+        "sports",
+        "luxury",
+        "performance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80",
+      "description": "The BMW M4 Competition combines aggressive styling, outstanding performance, advanced technology, and premium comfort.",
+      "updatedAt": "2026-09-24T16:57:49.463Z",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "BMW X5",
+      "brandId": 1,
+      "year": 2025,
+      "price": 85000,
+      "discount": 5,
+      "stock": 4,
+      "tags": [
+        "suv",
+        "luxury",
+        "family"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1653227158553-ddaa680cdd65?auto=format&fit=crop&w=1200&q=80",
+      "description": "The BMW X5 delivers a premium SUV experience with spacious interiors, powerful performance, and modern technology.",
+      "createdAt": "2026-02-02T10:00:00Z",
+      "updatedAt": "2026-02-02T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Mercedes-Benz C-Class",
+      "brandId": 2,
+      "year": 2025,
+      "price": 62000,
+      "discount": 5,
+      "stock": 5,
+      "tags": [
+        "sedan",
+        "luxury",
+        "comfort"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Mercedes-Benz C-Class offers elegant design, advanced technology, refined comfort, and a premium driving experience.",
+      "createdAt": "2026-02-03T10:00:00Z",
+      "updatedAt": "2026-02-03T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Mercedes-Benz GLE",
+      "brandId": 2,
+      "year": 2025,
+      "price": 92000,
+      "discount": 8,
+      "stock": 3,
+      "tags": [
+        "suv",
+        "luxury",
+        "premium"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Mercedes-Benz GLE is a premium SUV offering spacious comfort, elegant design, and advanced driving technology.",
+      "createdAt": "2026-02-04T10:00:00Z",
+      "updatedAt": "2026-02-04T10:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Audi R8",
+      "brandId": 3,
+      "year": 2024,
+      "price": 145000,
+      "discount": 15,
+      "stock": 2,
+      "tags": [
+        "supercar",
+        "performance",
+        "sports"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Audi R8 is an iconic performance car featuring powerful performance, sharp handling, and unmistakable design.",
+      "createdAt": "2026-02-05T10:00:00Z",
+      "updatedAt": "2026-02-05T10:00:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Porsche 911",
+      "brandId": 4,
+      "year": 2025,
+      "price": 120000,
+      "discount": 0,
+      "stock": 3,
+      "tags": [
+        "sports",
+        "premium",
+        "performance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Porsche 911 is a legendary sports car combining timeless design, outstanding performance, and German engineering.",
+      "createdAt": "2026-02-06T10:00:00Z",
+      "updatedAt": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Porsche Cayenne",
+      "brandId": 4,
+      "year": 2025,
+      "price": 98000,
+      "discount": 7,
+      "stock": 4,
+      "tags": [
+        "suv",
+        "luxury",
+        "performance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Porsche Cayenne combines SUV practicality with sports-car performance, luxury, and advanced technology.",
+      "createdAt": "2026-02-07T10:00:00Z",
+      "updatedAt": "2026-02-07T10:00:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Tesla Model S",
+      "brandId": 5,
+      "year": 2025,
+      "price": 88000,
+      "discount": 12,
+      "stock": 4,
+      "tags": [
+        "electric",
+        "technology",
+        "sedan"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1200&q=80",
+      "description": "The Tesla Model S is a modern electric sedan offering impressive acceleration, advanced technology, and long-range performance.",
+      "createdAt": "2026-02-08T10:00:00Z",
+      "updatedAt": "2026-02-08T10:00:00Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
